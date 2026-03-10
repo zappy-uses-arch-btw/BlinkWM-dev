@@ -1,0 +1,12 @@
+/workspaces/BlinkWM-dev/target/release/deps/mlua_sys-8ddeab2363dc0ce5.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/workspaces/BlinkWM-dev/target/release/deps/libmlua_sys-8ddeab2363dc0ce5.rlib: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/workspaces/BlinkWM-dev/target/release/deps/libmlua_sys-8ddeab2363dc0ce5.rmeta: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs:
