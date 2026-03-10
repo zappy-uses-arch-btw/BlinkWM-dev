@@ -1,0 +1,5 @@
+cargo:rerun-if-changed=build
+cargo:rustc-link-search=native=/workspaces/BlinkWM-dev/target/release/build/mlua-sys-46dad2a45642781e/out/lua-build/lib
+cargo:rustc-link-lib=static=lua5.4
+cargo:include=/workspaces/BlinkWM-dev/target/release/build/mlua-sys-46dad2a45642781e/out/lua-build/include
+cargo:lib=/workspaces/BlinkWM-dev/target/release/build/mlua-sys-46dad2a45642781e/out/lua-build/lib

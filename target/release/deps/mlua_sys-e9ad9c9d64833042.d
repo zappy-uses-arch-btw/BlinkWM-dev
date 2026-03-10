@@ -1,0 +1,12 @@
+/workspaces/BlinkWM-dev/target/release/deps/mlua_sys-e9ad9c9d64833042.d: /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/workspaces/BlinkWM-dev/target/release/deps/libmlua_sys-e9ad9c9d64833042.rlib: /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/workspaces/BlinkWM-dev/target/release/deps/libmlua_sys-e9ad9c9d64833042.rmeta: /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs /home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs
+
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lib.rs:
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/macros.rs:
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/mod.rs:
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lauxlib.rs:
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lua.rs:
+/home/pkger/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mlua-sys-0.6.8/src/lua54/lualib.rs:

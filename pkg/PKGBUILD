@@ -22,17 +22,17 @@ replaces=()
 backup=()
 options=()
 changelog=
-source=("$pkgname-$pkgver.tar.gz")
+source=()
 noextract=()
 validpgpkeys=()
 
 build() {
-    cd "$pkgname-$pkgver"
+    cd /workspaces/BlinkWM-dev
     cargo build --release
 }
 
 package() {
-    cd "$pkgname-$pkgver"
+    cd /workspaces/BlinkWM-dev
     
     # Install binaries
     install -Dm755 target/release/blink-wm "$pkgdir/usr/bin/blink-wm"
@@ -51,5 +51,10 @@ package() {
     # Install config directory
     install -d "$pkgdir/usr/share/blink-wm"
     install -m644 config/config.lua "$pkgdir/usr/share/blink-wm/config.lua"
-    install -m644 colorschemes/*.lua "$pkgdir/usr/share/blink-wm/colorschemes/"
+    
+    # Install colorschemes
+    install -d "$pkgdir/usr/share/blink-wm/colorschemes"
+    for theme in colorschemes/*.lua; do
+        install -m644 "$theme" "$pkgdir/usr/share/blink-wm/colorschemes/"
+    done
 }

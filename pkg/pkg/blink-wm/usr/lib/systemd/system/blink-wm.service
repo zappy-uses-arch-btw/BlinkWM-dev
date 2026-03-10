@@ -1,0 +1,11 @@
+[Unit]
+Description=BlinkWM Window Manager
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/blink-wm
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
