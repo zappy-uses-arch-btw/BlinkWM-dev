@@ -1,0 +1,20 @@
+[package]
+name = "blink-bar"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "blink-bar"
+path = "src/main.rs"
+
+[dependencies]
+blink-ipc = { path = "../blink-ipc" }
+ratatui = "0.26"
+crossterm = "0.27"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+log = "0.4"
+env_logger = "0.11"

@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "blink-wm",
+    "blink-launch",
+    "blink-conf",
+    "blink-bar",
+    "blink",
+    "blink-pkg",
+    "blink-ipc",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["BlinkWM Team"]
+license = "MIT"
