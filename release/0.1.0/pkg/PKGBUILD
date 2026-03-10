@@ -1,0 +1,60 @@
+# Maintainer: BlinkWM Team <blinkwm@example.com>
+# Contributor: Your Name <your@email.com>
+
+pkgname=blink-wm
+pkgver=0.1.0
+pkgrel=1
+epoch=
+pkgdesc="A minimal, fast, macOS-inspired hybrid tiling window manager for X11"
+arch=('x86_64')
+url="https://github.com/blinkwm/BlinkWM"
+license=('MIT')
+groups=()
+depends=('libxkbcommon' 'rust')
+makedepends=()
+checkdepends=()
+optdepends=('picom-git: for blur and animations'
+            'ttf-jetbrains-mono: default font'
+            'ttf-jetbrains-mono-nerd: nerd fonts')
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+changelog=
+source=()
+noextract=()
+validpgpkeys=()
+
+build() {
+    cd /workspaces/BlinkWM-dev
+    cargo build --release
+}
+
+package() {
+    cd /workspaces/BlinkWM-dev
+    
+    # Install binaries
+    install -Dm755 target/release/blink-wm "$pkgdir/usr/bin/blink-wm"
+    install -Dm755 target/release/blink "$pkgdir/usr/bin/blink"
+    install -Dm755 target/release/blink-launch "$pkgdir/usr/bin/blink-launch"
+    install -Dm755 target/release/blink-conf "$pkgdir/usr/bin/blink-conf"
+    install -Dm755 target/release/blink-bar "$pkgdir/usr/bin/blink-bar"
+    install -Dm755 target/release/blink-pkg "$pkgdir/usr/bin/blink-pkg"
+    
+    # Install systemd service
+    install -Dm644 pkg/files/blink-wm.service "$pkgdir/usr/lib/systemd/system/blink-wm.service"
+    
+    # Install Xsession
+    install -Dm644 pkg/files/blink.desktop "$pkgdir/usr/share/xsessions/blink.desktop"
+    
+    # Install config directory
+    install -d "$pkgdir/usr/share/blink-wm"
+    install -m644 config/config.lua "$pkgdir/usr/share/blink-wm/config.lua"
+    
+    # Install colorschemes
+    install -d "$pkgdir/usr/share/blink-wm/colorschemes"
+    for theme in colorschemes/*.lua; do
+        install -m644 "$theme" "$pkgdir/usr/share/blink-wm/colorschemes/"
+    done
+}

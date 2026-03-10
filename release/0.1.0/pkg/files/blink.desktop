@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=BlinkWM
+Comment=A minimal, fast, macOS-inspired hybrid tiling window manager
+Exec=/usr/bin/blink-wm
+Type=Application
+Keywords=wm;windowmanager;tiling;
