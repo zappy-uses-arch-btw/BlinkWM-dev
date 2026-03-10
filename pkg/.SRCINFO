@@ -1,0 +1,17 @@
+pkgbase = blink-wm
+	pkgdesc = A minimal, fast, macOS-inspired hybrid tiling window manager for X11
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/blinkwm/BlinkWM
+	arch = x86_64
+	license = MIT
+	depends = libxkbcommon
+	depends = rust
+	optdepends = picom-git: for blur and animations
+	optdepends = ttf-jetbrains-mono: default font
+	optdepends = ttf-jetbrains-mono-nerd: nerd fonts
+provides = blink-wm
+
+pkgname = blink-wm
+	install = 
+	source = blink-wm-0.1.0.tar.gz
